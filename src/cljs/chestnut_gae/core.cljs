@@ -23,5 +23,3 @@
       (dom/h2 nil (:text data))))
    app-state
    {:target (. js/document (getElementById "app1"))}))
-
-(main)
